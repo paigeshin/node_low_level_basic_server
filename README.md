@@ -216,3 +216,43 @@ module.exports = { key : pair }
 module.exports.handler = `원하는 것`  //(중복으로 사용 가능하다.)
 
 ```
+
+### Module Summary
+
+- How the Web Works
+
+Client → Request → Server → Response → Client 
+
+- Program Lifecycle & Event Loop
+
+i. Node.js runs non-blocking JS code and uses an event-driven code("Event Loop") for running your logic
+
+ii.  A Node program exits as soon as there is no more work to do
+
+iii. The createServer() event never finishes by default
+
+- Asynchronous Code
+
+i. JS Code is non-blocking
+
+ii. Use callbacks and events ⇒ Order changes! 
+
+- Requests & Responses
+
+i. Parse request data in chunks (Streams & Buffers)
+
+ii. Avoid 'Double Responses' 
+
+- Node.js & Core modules
+
+i. Node.js ships with multiple core modules (http, fs, path...)
+
+ii. Core modules can be imported into any file to be used there
+
+iii. Import via require('module') 
+
+- The Node Module System
+
+i. Import via require('./path-to-file') for custom files or require('module') for core & third-party modules
+
+ii. Export via module.exports or just exports (for multiple exports)
