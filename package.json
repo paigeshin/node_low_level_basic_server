@@ -1,0 +1,21 @@
+{
+  "name": "node_basic",
+  "version": "1.0.0",
+  "description": "❗️Node.js는 event loop를 내부적으로 저장하고 절대 멈추지 않는다.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proscus0706/node_low_level_basic_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/proscus0706/node_low_level_basic_server/issues"
+  },
+  "homepage": "https://github.com/proscus0706/node_low_level_basic_server#readme"
+}
